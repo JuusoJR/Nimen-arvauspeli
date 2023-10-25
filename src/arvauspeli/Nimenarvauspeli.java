@@ -10,7 +10,7 @@ public class Nimenarvauspeli {
         System.out.println("Tervettuloa arvauspeliin!");
         System.out.println("Arvaa nimeni");
         // oikea nimi
-        String correctName = "Matti";
+        String correctName = "Ella";
         // käyttäjä input
         String guess = "";
 
