@@ -26,6 +26,9 @@ public class Nimenarvauspeli {
             } else if (guess.equals("")) {
                 System.out.println("Puhu kovempaa! En kuule!");
             }
+            else if (guess.equals("lopeta")) {
+            	break;
+            }
              else {
                 System.out.println("Yritä uudestaan!");
             }
