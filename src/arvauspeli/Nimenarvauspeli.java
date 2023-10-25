@@ -18,17 +18,19 @@ public class Nimenarvauspeli {
         do {
             
             guess = in.nextLine();
-
+            //oikea nimi
             if (guess.equalsIgnoreCase(correctName)) {
 
                 System.out.println("Onneksi olkoon! Arvasit oikein");
-
+                //tyhjä vastaus
             } else if (guess.equals("")) {
                 System.out.println("Puhu kovempaa! En kuule!");
             }
+            //lopetus
             else if (guess.equals("lopeta")) {
             	break;
             }
+            //väärin arvaus
              else {
                 System.out.println("Yritä uudestaan!");
             }
